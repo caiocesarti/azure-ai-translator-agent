@@ -31,7 +31,7 @@ main_content = (
 )
 ```
 
-**Resultado**: Redução de ~30% no tamanho do input, tradução mais focada.
+**Resultado**: Redução significativa no tamanho do input (excluindo menus, sidebars e comentários), tradução mais focada.
 
 ---
 
@@ -103,7 +103,11 @@ client = AzureChatOpenAI(
 
 ## Próximas Melhorias
 
+### ✅ Concluído
+- **Testes Automatizados**: pytest com 12 testes (unitários e integração).
+- **Logging Estruturado**: Substituição de `print()` por `logging.Logger`.
+
+### 🔜 Pendente
 1. **Suporte a múltiplos idiomas**: Adicionar parâmetro CLI para escolher idioma de destino.
 2. **Batch Processing**: Traduzir múltiplas URLs de uma vez.
-3. **Testes Automatizados**: Adicionar `pytest` para validar scraper e tradutor.
-4. **CI/CD**: GitHub Actions para rodar testes em cada commit.
+3. **CI/CD**: GitHub Actions para rodar testes em cada commit.
