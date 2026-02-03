@@ -1,0 +1,33 @@
+
+# Python internals
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables (Security)
+.env
+.env.local
+
+# output folder (Don't commit translations)
+output/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# VS Code settings (Optional - keep personalized settings out)
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Pytest artifacts
+.pytest_cache/
+.coverage
+htmlcov/
