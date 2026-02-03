@@ -1,3 +1,5 @@
+🇺🇸 **English version: [README.en.md](README.en.md)**
+
 # Azure AI Technical Article Translator
 
 > **Agente de tradução técnica automatizado, baseado em Azure OpenAI (GPT-5) e LangChain. Oferece recursos de extração de dados HTML direcionada e localização contextual para artigos.**
